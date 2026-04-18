@@ -1,0 +1,71 @@
+/* PAGE */
+.practice-page {
+  padding: 16px;
+}
+
+/* HEADER */
+.practice-header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.practice-header h2 {
+  font-size: 24px;
+  font-weight: bold;
+  font-family: 'Milan', serif;
+  color: #33745C;
+}
+
+.practice-header p {
+  font-size: 14px;
+  color: #33745C;
+  margin-top: 5px;
+}
+
+/* FORM CARD */
+.practice-card {
+  border-radius: 16px;
+  border: 2px solid #33745C;
+  background: #ffffff;
+  margin-bottom: 20px;
+  padding: 10px;
+}
+
+/* INPUT */
+.practice-input {
+  margin-top: 12px;
+  --background: #f5f7fb;
+  border-radius: 10px;
+  padding: 10px;
+  font-family: 'Milan', serif;
+}
+
+/* SUBMIT BUTTON (dashboard style) */
+.practice-submit {
+  border-radius: 16px;
+  border: 2px solid #3b8d01;
+  background: #4AB651;
+  color: white;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  cursor: pointer;
+}
+
+/* HOVER */
+.practice-submit:hover {
+  transform: scale(1.03);
+  box-shadow: 0 6px 12px rgba(0,0,0,0.2);
+}
+
+/* CLICK */
+.practice-submit:active {
+  transform: scale(0.97);
+}
+
+/* CONTENT */
+.practice-submit-content {
+  text-align: center;
+  font-size: 18px;
+  font-weight: bold;
+  font-family: 'Milan', serif;
+  padding: 14px;
+}

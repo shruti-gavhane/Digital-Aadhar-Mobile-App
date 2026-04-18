@@ -1,0 +1,171 @@
+/* PAGE */
+.dashboard-content {
+  padding: 16px;
+}
+
+/* LANGUAGE BUTTONS */
+.lang-buttons {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 15px;
+}
+
+/* TITLE */
+.dashboard-title {
+  text-align: center;
+  font-size: 28px;
+  font-weight: bold;
+    font-family: 'Milan',serif;
+  color: #33745C;
+}
+
+/* SUBTITLE */
+.dashboard-subtitle {
+  text-align: center;
+  color: #33745C;
+  margin-bottom: 20px;
+}
+
+/* CARD COMMON */
+.card {
+  margin-bottom: 15px;
+  border-radius: 16px;
+  border: 2px solid;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+/* HOVER EFFECT */
+.card:hover {
+  transform: scale(1.03);
+  box-shadow: 0 6px 12px rgba(0,0,0,0.2);
+}
+
+/* CLICK EFFECT */
+.card:active {
+  transform: scale(0.98);
+}
+
+/* CARD CONTENT */
+.card-content {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+    font-family: 'Milan',serif;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+/* ICON */
+.card-icon {
+  width: 50px;
+  height: 50px;
+}
+
+/* 🎨 COLORS */
+
+/* LEARN */
+.learn-card {
+  background: #4AB651;
+  color: #cdf1b4;
+  border-color: #3b8d01;
+}
+
+/* QUIZ */
+.quiz-card {
+  background: #935CDB;
+  color: #e0d2f3;
+  border-color: #530eb4;
+}
+
+/* CHAT */
+.chat-card {
+  background: #3D8CE8;
+  color: #b6e2ff;
+  border-color: #037bcb;
+}
+
+/* DETECTOR */
+.detector-card {
+  background: #FA5C4A;
+  color: #e4d4c6;
+  border-color: #9e4700;
+}
+
+/* PROGRESS */
+.progress-card {
+  background: #0BAFB1;
+  color: #a5f0ef;
+  border-color: #007e7c;
+}
+
+/* EMERGENCY */
+.emergency-card {
+  background: #F43C48;
+  color: #e1c2c1;
+  border-color: #8d0200;
+}
+
+/* 🌐 LANGUAGE SELECTOR */
+.lang-selector {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 20px;
+  margin: 20px;
+}
+
+/* BUTTON */
+.lang-btn {
+  border: 2px solid #33745C;
+  background: white;
+  color: #33745C;
+  padding: 8px 16px;
+  border-radius: 20px;
+  font-size: 14px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+/* ACTIVE BUTTON */
+.lang-btn.active {
+  background: #33745C;
+  color: white;
+}
+
+/* HOVER EFFECT */
+.lang-btn:hover {
+  transform: scale(1.05);
+}
+
+/* HEADER CONTAINER */
+.header {
+  display: flex;
+  align-items: center;   /* vertically align logo + text */
+  gap: 10px;             /* space between logo & text */
+  margin-bottom: 20px;
+}
+
+/* LOGO SIZE (FIXED) */
+.app-logo {
+  width: 70px;           /* adjust between 30–45px */
+  height: 70px;
+  object-fit: contain;
+  margin-left: 80px;
+}
+
+/* TITLE */
+.dashboard-title {
+  font-size: 22px;
+  font-weight: bold;
+  color: #33745C;
+  margin: 0;
+}
+
+/* SUBTITLE */
+.dashboard-subtitle {
+  font-size: 14px;
+  color: #33745C;
+    font-family: 'Milan',serif;
+  margin: 0;
+}

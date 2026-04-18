@@ -1,0 +1,87 @@
+/* Card */
+.qr-card {
+  margin-top: 20px;
+  border-radius: 20px;
+  padding: 10px;
+  background: #ffffff;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.08);
+}
+
+/* Header */
+.qr-header {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 15px;
+}
+
+.qr-header h2 {
+  font-size: 18px;
+  font-weight: 600;
+  margin: 0;
+}
+
+.qr-icon {
+  font-size: 22px;
+}
+
+/* Buttons container */
+.qr-buttons {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin-bottom: 15px;
+}
+
+/* Buttons */
+.qr-btn {
+  height: 48px;
+  border-radius: 12px;
+  font-weight: 600;
+  text-transform: none;
+  font-size: 15px;
+}
+
+/* Primary button */
+.qr-btn.primary {
+  --background: #1e5eff;
+}
+
+/* Secondary button */
+.qr-btn.secondary {
+  --background: #3b82f6;
+}
+
+/* Scanner box */
+.qr-reader {
+  margin-top: 10px;
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+/* Loading */
+.qr-loading {
+  margin-top: 10px;
+  font-size: 14px;
+  color: #555;
+}
+
+/* Result box */
+.qr-result {
+  margin-top: 15px;
+  padding: 14px;
+  border-radius: 14px;
+  font-size: 14px;
+}
+
+/* Safe */
+.safe-box {
+  background: #e8f5e9;
+  color: #2e7d32;
+}
+
+/* Scam */
+.scam-box {
+  background: #fdecea;
+  color: #c62828;
+}

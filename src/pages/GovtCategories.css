@@ -1,0 +1,119 @@
+/* PAGE */
+.govt-page {
+  min-height: 100vh;
+  background: #f4f7f5;
+  padding-bottom: 2rem;
+}
+
+/* HEADER */
+.govt-header {
+  background: #33745C;
+  padding: 20px 16px;
+}
+
+.govt-header-content {
+  display: flex;
+  flex-direction: column;
+}
+
+.govt-header-title {
+  font-size: 22px;
+  font-weight: bold;
+  color: white;
+  margin: 0;
+  font-family: 'Milan', serif;
+}
+
+.govt-header-subtitle {
+  font-size: 14px;
+  color: rgba(255, 255, 255, 0.75);
+  margin: 0;
+  font-family: 'Milan', serif;
+}
+
+/* CARDS LIST */
+.govt-content {
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+/* CARD COMMON */
+.govt-card {
+  border-radius: 16px;
+  border: 2px solid;
+  margin: 0;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.govt-card:hover {
+  transform: scale(1.03);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+.govt-card:active {
+  transform: scale(0.98);
+}
+
+/* CARD INNER */
+.govt-card-inner {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  font-family: 'Milan', serif;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+/* ICON */
+.govt-card-icon {
+  width: 50px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 2rem;
+  flex-shrink: 0;
+}
+
+.govt-card-label {
+  flex: 1;
+}
+
+/* 🎨 CARD COLORS */
+
+/* Senior Citizens - Green */
+.govt-card--senior {
+  background: #4AB651;
+  color: #cdf1b4;
+  border-color: #3b8d01;
+}
+
+/* Students - Purple */
+.govt-card--student {
+  background: #935CDB;
+  color: #e0d2f3;
+  border-color: #530eb4;
+}
+
+/* Farmers - Blue */
+.govt-card--farmer {
+  background: #3D8CE8;
+  color: #b6e2ff;
+  border-color: #037bcb;
+}
+
+/* Jobs - Red-Orange */
+.govt-card--jobs {
+  background: #FA5C4A;
+  color: #e4d4c6;
+  border-color: #9e4700;
+}
+
+/* Health - Teal */
+.govt-card--health {
+  background: #0BAFB1;
+  color: #a5f0ef;
+  border-color: #007e7c;
+}

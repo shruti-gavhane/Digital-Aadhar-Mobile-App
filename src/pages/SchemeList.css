@@ -1,0 +1,102 @@
+/* PAGE */
+.scheme-page {
+  padding: 16px;
+}
+
+/* HEADER */
+.scheme-header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.scheme-header h2 {
+  font-size: 26px;
+  font-weight: bold;
+  font-family: 'Milan', serif;
+  color: #33745C;
+}
+
+.scheme-header p {
+  color: #33745C;
+  font-size: 14px;
+  margin-top: 4px;
+}
+
+/* CARD COMMON (like dashboard) */
+.scheme-card {
+  margin-bottom: 15px;
+  border-radius: 16px;
+  border: 2px solid #33745C;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  background: #ffffff;
+}
+
+/* HOVER */
+.scheme-card:hover {
+  transform: scale(1.03);
+  box-shadow: 0 6px 12px rgba(0,0,0,0.2);
+}
+
+/* CLICK */
+.scheme-card:active {
+  transform: scale(0.98);
+}
+
+/* CONTENT */
+.scheme-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 15px;
+  font-family: 'Milan', serif;
+}
+
+/* TEXT */
+.scheme-content h3 {
+  font-size: 18px;
+  font-weight: bold;
+  color: #33745C;
+  margin-bottom: 4px;
+}
+
+.scheme-content p {
+  font-size: 13px;
+  color: #666;
+}
+
+/* ICON */
+.scheme-content ion-icon {
+  font-size: 22px;
+  color: #33745C;
+}
+
+/* OPTIONAL CATEGORY COLORS */
+
+/* Pension Scheme */
+/* 🎨 ALTERNATING COLORS FOR ALL CARDS */
+
+.scheme-card:nth-child(odd) {
+  background: #4AB651;
+  border-color: #3b8d01;
+}
+
+.scheme-card:nth-child(odd) h3 {
+  color: #ffffff;
+}
+
+.scheme-card:nth-child(odd) p {
+  color: #eaffd8;
+}
+
+.scheme-card:nth-child(even) {
+  background: #3D8CE8;
+  border-color: #037bcb;
+}
+
+.scheme-card:nth-child(even) h3 {
+  color: #ffffff;
+}
+
+.scheme-card:nth-child(even) p {
+  color: #e0f4ff;
+}

@@ -1,0 +1,84 @@
+/* PAGE */
+.learn-content {
+  padding: 46px;
+}
+/* HEADER */
+.header {
+  display: flex;
+  align-items: left;
+  gap: 10px;
+  margin-bottom: 30px;
+ margin-top: 20px ;
+}
+
+/* LOGO */
+.app-logo {
+  width: 45px;
+  height: 45px;
+  align-items: left;
+  object-fit: contain;
+  flex-shrink: 0;   /* prevents resizing */
+  
+}
+
+/* TEXT CONTAINER */
+.header-text {
+  display: flex;
+  align-items: center;
+}
+
+/* TITLE */
+.page-title {
+  font-size: 42px;
+  font-weight: 600;
+  font-family: 'Milan',serif;
+  color: #33745C;
+
+  margin: 0;
+  padding: 0;
+  line-height: 1;
+
+  display: flex;
+  align-items: center;
+}
+
+/* CARD COMMON */
+.card-content {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+    font-family: 'Milan',serif;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+/* ICON */
+.card-icon {
+  width: 35px;
+  height: 35px;
+}
+
+/* UPI CARD */
+.upi-card {
+  background: #fefefe;
+  color: #75c939;
+  border: 2px solid #1a8421;
+  border-radius: 16px;
+  margin-bottom: 15px;
+}
+
+/* GOVT CARD */
+.govt-card {
+  background: #fefefe;
+  color: #8a54cc;
+  border: 2px solid #935CDB;
+  border-radius: 16px;
+  margin-bottom: 15px;
+}
+
+/* HOVER */
+.learn-card:hover,
+.govt-card:hover {
+  transform: scale(1.03);
+  transition: 0.2s;
+}

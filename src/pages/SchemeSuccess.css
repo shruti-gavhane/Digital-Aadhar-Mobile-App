@@ -1,0 +1,33 @@
+/* PAGE CENTERING */
+.success-page {
+  display: flex;
+  justify-content: center;   /* horizontal center */
+  align-items: center;       /* vertical center */
+  height: 100%;
+  padding: 16px;
+}
+
+/* CARD */
+.success-card {
+  width: 100%;
+  max-width: 400px;
+  text-align: center;
+  border-radius: 18px;
+  border: 2px solid #4AB651;
+  background: #eaffd8;
+  box-shadow: 0 6px 18px rgba(0,0,0,0.1);
+}
+
+/* TITLE */
+.success-card h2 {
+  color: #3b8d01;
+  font-family: 'Milan', serif;
+  margin-bottom: 10px;
+}
+
+/* TEXT */
+.success-card p {
+  color: #555;
+  font-size: 14px;
+  margin-bottom: 15px;
+}

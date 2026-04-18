@@ -1,0 +1,89 @@
+/* PAGE */
+.login-page {
+  padding: 16px;
+}
+
+/* HEADER */
+.login-header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.login-title {
+  font-size: 26px;
+  font-weight: bold;
+  font-family: 'Milan', serif;
+  color: #33745C;
+}
+
+.login-subtitle {
+  color: #33745C;
+  font-size: 14px;
+}
+
+/* CARD (same as dashboard cards) */
+.login-card {
+  margin-bottom: 15px;
+  border-radius: 16px;
+  border: 2px solid #33745C;
+  background: #ffffff;
+  padding: 15px;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+/* HOVER */
+.login-card:hover {
+  transform: scale(1.02);
+  box-shadow: 0 6px 12px rgba(0,0,0,0.2);
+}
+
+/* INPUT */
+.login-input {
+  margin-top: 12px;
+  --background: #f5f7fb;
+  border-radius: 10px;
+  padding: 10px;
+  font-family: 'Milan', serif;
+}
+
+/* BUTTON (dashboard style) */
+.login-btn {
+  margin-top: 15px;
+  border-radius: 16px;
+  border: 2px solid #037bcb;
+  background: #3D8CE8;
+  color: #ffffff;
+  font-weight: bold;
+  height: 50px;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+/* BUTTON HOVER */
+.login-btn:hover {
+  transform: scale(1.03);
+  box-shadow: 0 6px 12px rgba(0,0,0,0.2);
+}
+
+/* BUTTON CLICK */
+.login-btn:active {
+  transform: scale(0.97);
+}
+
+/* FOOTER */
+.login-footer {
+  margin-top: 15px;
+  text-align: center;
+  font-size: 14px;
+  font-family: 'Milan', serif;
+}
+
+.login-footer span {
+  color: #33745C;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+/* HOVER */
+.login-footer span:hover {
+  text-decoration: underline;
+}

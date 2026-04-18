@@ -1,0 +1,105 @@
+.page {
+  --background: #f5f7fb;
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+.custom-content {
+  --padding-start: 16px;
+  --padding-end: 16px;
+  --padding-top: 20px;
+  --padding-bottom: 20px;
+    font-family:'Milan ' , serif;
+    color: #0f6f15 ;
+}
+
+.title {
+  text-align: center;
+  margin-bottom: 10px;
+    font-family:'Milan ' , serif;
+}
+
+.center {
+  text-align: center;
+}
+
+.scenario-text {
+  font-size: 14px;
+  font-weight: 600;
+  color: #888;
+  margin-bottom: 10px;
+    font-family:'Milan ' , serif;
+}
+
+.message-card {
+  background: #eef3fb;
+  border-radius: 16px;
+  margin: 12px 0;
+}
+
+.message-text {
+  font-size: 16px;
+    font-family:'Milan ' , serif;
+}
+
+.btn {
+  margin-top: 12px;
+  height: 50px;
+  border-radius: 12px;
+  font-weight: 600;
+    font-family:'Milan ' , serif;
+}
+
+.result-card {
+  border-radius: 16px;
+  text-align: center;
+}
+
+.score {
+  font-size: 20px;
+  font-weight: bold;
+  font-family:'Milan ' , serif;
+}
+
+.next-btn {
+  margin-top: 20px;
+  height: 50px;
+  border-radius: 12px;
+  font-weight: bold;
+    font-family:'Milan ' , serif;
+}
+
+.fade-in {
+  animation: fadeIn 0.4s ease-in;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+/* EASY - GREEN */
+.easy-btn {
+  --background: #4AB651;
+  --color: white;
+    font-family:'Milan ' , serif;
+}
+
+/* MEDIUM - YELLOW */
+.medium-btn {
+  --background: #FFC107;
+  --color: black;
+    font-family:'Milan ' , serif;
+}
+
+/* HARD - RED */
+.hard-btn {
+  --background: #F44336;
+  --color: white;
+    font-family:'Milan ' , serif;
+}
