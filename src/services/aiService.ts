@@ -1,4 +1,4 @@
-const API_KEY = "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";
+const API_KEY = "Paste your api key here";
 
 // ✅ BEST FREE MODEL (MOST RELIABLE)
 const MODEL = "meta-llama/llama-3-8b-instruct";
