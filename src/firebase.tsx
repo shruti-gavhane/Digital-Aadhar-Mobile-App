@@ -6,7 +6,7 @@ import { getFirestore } from "firebase/firestore";
 
 // Your config (same as yours)
 const firebaseConfig = {
-  apiKey: "AIzaSyDGyC-YC7UEzaO4txlzec29JJKzuJ5GQ4w",
+  apiKey: "paste ai api key here",
   authDomain: "digitalaadhar-845a3.firebaseapp.com",
   projectId: "digitalaadhar-845a3",
   storageBucket: "digitalaadhar-845a3.firebasestorage.app",
